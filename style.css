@@ -235,9 +235,9 @@ padding-left: 90px;
 
 }
 .pricing-color-m{
-  border-top-right-radius:100%;
+  
   background-color: #eaa81b;
-  border-top-left-radius:100%;
+  border-radius: 100%;
   padding: 0 40px;
 }
 .pricing-color-2{
@@ -522,12 +522,7 @@ text-align: left;
 .vl{
   display: none;
 }
-.pricing-card{
-display: block;
-  height: 110vh;
-  width: 35vh;
-  margin: 50px auto;
-}
+
 .b{
   width: 650px;
   height: 400px;
@@ -542,7 +537,14 @@ iframe{
 }
 
 }
-
+@media (max-width:1400px) {
+  .pricing-card{
+  display: block;
+    height: 110vh;
+    width: 35vh;
+    margin: 50px auto;
+  }
+}
 @media (max-width:850px) {
 
   .review-img img{
