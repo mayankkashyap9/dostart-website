@@ -385,7 +385,7 @@ color: #194350;
   padding: 30px;
 }
 .parallax-window2{
-  height: 200vh;
+  height: 160vh;
 
 }
 .iframe-container{
@@ -482,6 +482,11 @@ text-align: left;
     100% { background-position: 0 0; }
 }
 
+@media (max-width:1000px){
+  .parallax-window2{
+    height:250vh;
+  }
+}
 @media (max-width:1250px)
 {
   .parallax-info{
@@ -538,9 +543,7 @@ text-align: left;
   height: 400px;
   width: 100%;
 }
-.parallax-window2{
-  height:260vh;
-}
+
 iframe{
   width: 600px;
 
