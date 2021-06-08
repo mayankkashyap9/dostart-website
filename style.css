@@ -537,14 +537,7 @@ iframe{
 }
 
 }
-@media (max-width:1700px) {
-  .pricing-card{
-  display: block;
-    height: 110vh;
-    width: 35vh;
-    margin: 50px auto;
-  }
-}
+
 @media (max-width:850px) {
 
   .review-img img{
