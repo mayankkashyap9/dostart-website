@@ -223,6 +223,7 @@ padding-left: 90px;
   margin-bottom: 100px;
 }
 .pricing-card{
+  display: block; height: 110vh; width: 35vh; margin: 50px auto;
   text-align: center;
 }
 .pricing-color-1 {
