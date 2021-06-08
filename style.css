@@ -537,7 +537,7 @@ iframe{
 }
 
 }
-@media (max-width:1400px) {
+@media (max-width:1500px) {
   .pricing-card{
   display: block;
     height: 110vh;
